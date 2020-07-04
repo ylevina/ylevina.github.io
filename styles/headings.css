@@ -1,0 +1,24 @@
+.heading-large{
+    font-weight: bold;
+    font-size: 78px;
+    text-transform: uppercase;
+}
+.heading-big{
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.heading-medium{
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.heading-small{
+    font-size: 35px;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.6);
+}
+.heading-section{
+    font-size: 35px;
+    text-transform: capitalize;
+}

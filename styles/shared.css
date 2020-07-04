@@ -1,0 +1,65 @@
+.accented{
+    color: #18CFAB;
+    font-weight: bold;
+}
+.button--basic, .button--decorated, .button--blue{
+    padding: 1em 2em;
+    border: 2px solid #18CFAB;
+    border-radius: 5px;
+    background-color: #18CFAB;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    margin: 2em 1em;
+}
+.button--decorated, .button--blue{   
+    box-shadow: 0px -4px 0px 0px white;    
+}
+.button--blue{  
+    background: #00CBF6;
+    border: 2px solid #00CBF6; 
+}
+.button--basic:focus, .button--decorated:focus, .button--blue:focus {
+    outline: none;    
+}
+.is-decorated::after {
+	display: block;
+    border-top: 1px solid #18CFAB;
+    border-bottom: 1px solid #18CFAB;
+    transform: skew(65deg);
+	margin: 0.8em auto 1.55em;
+	content: " ";
+	width: 80px;
+	height: 4px;
+}
+.circle-small {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 41px;
+	height: 40px;
+	border: 1px solid #18CFAB;
+	border-radius: 30px;
+	color: #18CFAB;	
+}
+.circle-small.decorated{
+	background: #18CFAB;
+	color: white;
+}
+.circle-medium{
+	width: 59px;
+	height: 59px;
+	border: 5px solid #135e5786;
+	border-radius: 40px;
+	color: #18CFAB;
+}
+.circle-big {
+    width: 144px;
+	height: 142px;
+	border: 10px solid #135e5786;
+	border-radius: 105px;
+	color: #18CFAB;	
+}
+.hidden{
+	display: none;
+}

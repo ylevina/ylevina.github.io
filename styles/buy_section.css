@@ -1,0 +1,35 @@
+.buy-now-section{
+    position: relative;    
+}
+.buy-now-overlay{
+    background-color: rgba(0, 0, 0, 0.562);
+}
+.buy-now-background, 
+.buy-now-overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.buy-now-background{
+    background: url(../img/sections/section-2.jpg) center center no-repeat;
+    background-size: cover;
+    z-index: 1
+}
+.buy-now-overlay{
+    background: rgba(0, 0, 0, 0.582);
+    z-index: 2;
+}
+.buy-now-content{
+    position: relative;
+    z-index: 3;
+    padding: 80px 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buy-now-content *{
+    margin: 20px 0;
+}
